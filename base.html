@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto BootStrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,  shrink-to-fit=no"/>
+    <html lang="pt-br">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/function.js" defer></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	<script src="js/jquery.min.js"></script>  
+	<script src="https://kit.fontawesome.com/132bd8955e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Coding.//</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>	
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sobre</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Mais++
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Galeria</a></li>
+								<li><a class="dropdown-item" href="#">Trabalhos</a></li>
+								<li><a class="dropdown-item" href="#">Doaçoẽs</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2 btn-outline-light" type="search" placeholder="Search" aria-label="Search"/>
+						<button class="btn btn-outline-light" type="submit">Search</button>
+					</form>
+				</div>
+		</div><!-- container -->
+	</nav><!-- nav -->
+	
+	
+	<section class="bg-top"> 
+		<div class="container">
+			<div class="texto-bg text-light">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Seja muito bem vindo(a)</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+					</div>
+
+					<div class="col-md-6">
+						<h2>Inscreva-se para nossa lista</h2>
+
+						<form>
+							<div class="form-group">
+								<label>Endereço de E-mail</label>
+								<input type="email" class="myText" placeholder="Digite seu E-mail"/>
+							</div>
+								<button  type="submit" class="btn btn-dark bt">Enviar</button>
+						</form>
+					</div>
+				</div><!-- row 1 -->
+			</div><!-- texto bg -->
+		</div><!-- container -->
+	</section>
+
+	<section class="chamada">
+		<div class="container">
+			<h2 class="text-center"><i class="fas fa-level-down-alt" aria-hidden="true"></i></h2>
+		</div>
+	</section><!-- chamada -->
+
+	<section class="sobre" style="background-color:rgb(116, 116, 116)">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="custom-title">
+						<div></div>
+						<h2 style="color:white;">Sobre</h2>
+					</div><!-- custom-title -->
+					<p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit iaculis ante vel tempor. Maecenas convallis commodo eros quis varius. Suspendisse luctus vehicula sem, a malesuada mi fringilla id. Nulla laoreet vitae sapien a dignissim. Suspendisse vitae dapibus orci. Sed vitae suscipit ipsum. Phasellus malesuada erat et erat eleifend, id faucibus sem ultrices. Proin dignissim nibh lorem, nec consectetur velit euismod non. Integer co...</p>
+					<div class="text-center"><button class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#meuModal">Saiba Mais++</button></div>
+				</div><!-- col -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+		<!-- modal -->
+		<div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="meuModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">Sobre nós!</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div><!-- modal-header -->
+				<div class="modal-body">
+				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit iaculis ante vel tempor. Maecenas convallis commodo eros quis varius. Suspendisse luctus vehicula sem, a malesuada mi fringilla id. Nulla laoreet vitae sapien a dignissim. Suspendisse vitae dapibus orci. Sed vitae suscipit ipsum. Phasellus malesuada erat et erat eleifend, id faucibus sem ultrices. Proin dignissim nibh lorem, nec consectetur velit euismod non. Integer consequat, purus sed ullamcorper scelerisque, diam turpis dapibus mi, eget mattis eros massa in quam. Sed nec ex ac magna tempor ultricies. Curabitur ut fermentum ex. Proin nec tempus nibh, non luctus nisi. Sed finibus aliquet ornare. Duis ullamcorper enim lobortis tortor sodales, vel posuere dolor fermentum. Donec sed orci eu lacus hendrerit fringilla.</p>
+				</div><!-- modal-body -->
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+				</div><!-- modal-footer -->
+			  </div><!-- modal-content -->
+			</div><!-- modal-dialog -->
+		  </div><!-- modal-fade -->
+	</section><!-- sobre -->
+	
+	<section class="diferenciais"> 
+		<div class="container">
+			<div class="custom-title">
+				<div></div>
+				<h2 style="border-bottom:0;">Nossos diferencias<h2>
+			</div><!-- custom-title -->
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<h2><i class="fa fa-user"></i></h2>
+					<p>elerisque, diam turpis dapibus mi, eget mattis eros massa in quam. Sed nec ex ac magna tempor ultricies. Curabitur ut fermentum ex. Proin nec tempus nibh, non luctus nisi. Sed finibus aliquet ornare. Duis ullamcorper enim lobortis tortor sodales, vel pos</p>
+				</div>
+
+				<div class="col-md-4 text-center">
+					<h2><i class="fa fa-bell-o" aria-hidden="true"></i></h2>
+					<p>elerisque, diam turpis dapibus mi, eget mattis eros massa in quam. Sed nec ex ac magna tempor ultricies. Curabitur ut fermentum ex. Proin nec tempus nibh, non luctus nisi. Sed finibus aliquet ornare. Duis ullamcorper enim lobortis tortor sodales, vel pos</p>
+				</div>
+
+				<div class="col-md-4 text-center">
+					<h2><i class="fa fa-coffee" aria-hidden="true"></i></h2>
+					<p>elerisque, diam turpis dapibus mi, eget mattis eros massa in quam. Sed nec ex ac magna tempor ultricies. Curabitur ut fermentum ex. Proin nec tempus nibh, non luctus nisi. Sed finibus aliquet ornare. Duis ullamcorper enim lobortis tortor sodales, vel pos</p>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- diferencias -->
+
+	<section class="convite">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<h2><i class="fa fa-bell-o" aria-hidden="true"></i>Participe da nossa lista!</h2>
+				</div><!-- col -->
+
+				<div class="col-md-6 text-center">
+					<form>
+						<div class="form-group">
+							<input type="email"/><button class="btn btn-dark">Entrar!</button>
+						</div><!-- form-group -->
+					</form>	
+				</div><!-- col -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- convite -->
+
+	<section class="contato">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="custom-title">
+						<div></div>
+						<h2>Fale conosco!</h2>
+					</div><!-- custom-title -->
+
+					<form>
+					<div class="form-group">
+						<label>Nome:</label>
+						<input class="form-control" type="text">
+					</div><!-- form-group 1 -->
+
+					<div class="form-group">
+						<label>E-mail:</label>
+						<input class="form-control" type="text">
+					</div><!-- form-group 2 -->
+
+					<div class="form-group">
+						<label>Sua mensagem:</label>
+						<textarea class="form-control"></textarea>
+					</div><!-- form-group 3 -->
+					<br/>
+					<button class="btn btn-dark" type="submit">Enviar</button>
+					</form>
+				</div><!-- col -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- contato -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Nossa história!</h2>
+					<p>elerisque, diam turpis dapibus mi, eget mattis eros massa in quam. Sed nec ex ac magna tempor ultricies. Curabitur ut fermentum ex. Proin nec tempus nibh, non luctus nisi. Sed finibus aliquet ornare. Duis ullamcorper enim lobortis tortor sodales</p>
+				</div><!-- col -->
+
+				<div class="col-md-3">
+					<h2>Rede sociais:</h2>
+					<div class="group-btns">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div><!-- group-btns -->
+				</div><!-- col -->	
+
+				<div class="col-md-3">
+					<h2>Links úteis:</h2>
+						<ul>
+							<li><a href="#">Youtube</a></li>
+							<li><a href="#">Twitch</a></li>
+							<li><a href="#">Parceiros</a></li>
+						</ul>
+				</div><!-- col -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</footer><!-- footer -->
+</body>
+</html>
